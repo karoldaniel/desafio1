@@ -10,7 +10,9 @@
 <?php wp_head(); ?>
 
 <body id="body">
-
+	<?php
+		include('src/components/navbar.php'); 
+	?>
 <main>
 	
 	

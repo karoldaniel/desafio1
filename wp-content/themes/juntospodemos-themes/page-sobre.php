@@ -17,7 +17,7 @@
   
     <?php
         include('src/components/sobre.php'); 
-        // include('templete-parts/content.php')
+        // include('templete-parts/content-sigle.php')
     ?>
 
 
