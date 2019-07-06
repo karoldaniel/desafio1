@@ -12,6 +12,7 @@
 <body id="body">
 	<?php
 		include('src/components/navbar.php'); 
+	include('slide.php');
 	?>
 <main>
 	

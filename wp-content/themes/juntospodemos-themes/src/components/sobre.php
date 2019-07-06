@@ -15,8 +15,8 @@
   <?php else: ?>
       <!-- <p>Nenhum conteúdo inserido na página Header</p> -->
   <?php endif; ?>
-    <div>
-        <?php query_posts('post_types=posteres'); ?>  
+    <div class="div">
+        <?php query_posts('post_types=posteres');  ?>  
             <?php if(have_posts()): ?>
                 <?php while(have_posts()): ?> 
                     <?php the_post(); ?>
@@ -27,6 +27,6 @@
                 Post não encontrado.
             <?php endif; ?>
         <?php  wp_reset_query(); ?>
-        
+
     </div>
 </section>
