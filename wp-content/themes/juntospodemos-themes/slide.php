@@ -7,7 +7,7 @@
 <?php 
     if($my_page) : forEach($my_page as $post) : setup_postdata($post);
 ?>
-<section id="">
+<header id="header">
 <?php
     the_content(); 
     endforeach; 
@@ -16,5 +16,9 @@
   <?php endif; ?>
 
 
+  
 
-</section>
+  
+
+
+</header>
